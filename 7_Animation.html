@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+    .box {
+        box-sizing: border-box;
+        margin:60px;
+        background-color: blue;
+        height: 150px;
+        width:150px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+        border: 3px solid black;
+        border-radius: 5px; text-align: center; text-transform: uppercase;
+        animation: ikduntikd;
+        animation-duration: 2s; 
+        animation-timing-function: ease-in-out; 
+        animation-delay: 0.1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes ikduntikd {
+        from {left:3px}
+        to {left :620px}
+    }
+    </style> 
+    </head>
+<body>
+    <div class="box">Animation</div>
+</body>
+</html>

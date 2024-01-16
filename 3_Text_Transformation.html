@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Transform</title>
+    <style>
+        .Box{height: 50px; width: 300px;
+            background-color:red;
+            text-align:center;
+        }
+        #box1 {
+            text-transform: uppercase;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+        }
+        #box2 {
+            text-transform: lowercase;
+            text-decoration: overline;
+            text-decoration-style: solid;
+        }
+        #box3 {
+            text-transform:capitalize;
+            text-decoration: underline;
+            text-decoration-style: wavy;
+        }
+        #box4 {
+            text-transform: none;
+            text-decoration: underline;
+            text-decoration-style: double;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="box1" class="Box"> Lorem ipsum dolor sit.</h3>
+    <h3 id="box2" class="Box"> Lorem ipsuM dolor sit.</h3>
+    <h3 id="box3" class="Box"> Lorem ipSum dolor sit.</h3>
+    <h3 id="box4" class="Box"> Lorem Ipsum dolor sit.</h3>
+</body>
+</html>

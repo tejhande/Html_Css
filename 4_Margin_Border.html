@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Property</title>
+    <style>
+        * {margin:0;
+        padding:0;}
+        .cad{
+            height: 35px;
+            width: 60px;
+            padding: 20px;
+            margin:5px;
+            /* border: 200px; */
+        }
+        #padded{
+            height: 94.2px;
+            width: 119.2px;
+            border:10px double red;
+            border-radius: 20px;
+            background-color:blue;
+            box-sizing: border-box;
+            
+        }
+        #padded2{
+            border:10px double greenyellow;
+            border-radius: 20px;
+            background-color:red;
+            box-sizing: content-box;
+            
+        }
+        </style>
+</head>
+<body>
+    <div id="padded"class="cad">Padding Checker</div>
+    <div id="padded2"class="cad">Padding Checker2</div>
+     
+</body>
+</html>

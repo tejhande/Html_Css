@@ -1,0 +1,31 @@
+*{ margin: 0; padding: 0;}
+header {
+    background-color:blue; border: 3px solid black; }
+nav a {
+    background-color:rgb(249, 193, 109);
+    padding-Top: 7px; margin-left:4%;
+    text-decoration:none ; text-align: center;
+    height:25px; width:20%; display: inline-block; 
+    border-left: 2.2px solid black;
+    border-right: 2.2px solid black;}
+
+#Box1{ margin: 25px 85px ; width: 100px; height: 60px; text-align:center;
+    background-color: green; border: 2px solid black;    border-radius: 50%; }
+
+#Box2 { z-index: 3; }
+
+footer{ border-top: 5px solid black;
+    position: fixed; bottom: 0; background-color: green; }
+
+body{background-color: rebeccapurple; }
+
+.Box {margin-left: 85px ;margin-top: 25px ;    
+    width: 100px; height: 100px; 
+    background-color: rgb(12, 248, 12);
+    border: 8px solid rgb(236, 11, 11); display: inline-block;}  
+
+main{ width: 75%; margin: 5px; padding: 5px; border: 3px solid black; text-align: center; }
+#Box4 { position: fixed; top: 62%; right: 10px; 
+background-color: rgb(12, 248, 12); text-align: center; }
+
+p {text-transform: capitalize;}
