@@ -25,7 +25,7 @@ body{background-color: rebeccapurple; }
     border: 8px solid rgb(236, 11, 11); display: inline-block;}  
 
 main{ width: 75%; margin: 5px; padding: 5px; border: 3px solid black; text-align: center; }
-#Box4 { position: fixed; top: 62%; right: 10px; 
+#Box4 { position: fixed; top: 64%; right: 10px; 
 background-color: rgb(12, 248, 12); text-align: center; }
 
 p {text-transform: capitalize;}
